@@ -1,0 +1,251 @@
+html,
+body
+  margin: 0
+  height: 100%
+
+p, h1, h2, h3, h4, h5, h6, ul
+  line-height 1.4
+  margin 0
+  padding 0
+ul
+  list-style: none
+a:hover
+  text-decoration: none
+
+/*从下往上透明切入*/
+
+@-webkit-keyframes breathe
+  0%
+    opacity 0
+  100%
+    opacity 1
+@keyframes breathe
+  0%
+    opacity 0
+  100%
+    opacity 1
+
+@-webkit-keyframes fadeIn
+  0%
+    opacity 0
+  100%
+    opacity 1
+@keyframes fadeIn
+  0%
+    opacity 0
+  100%
+    opacity 1
+
+@-webkit-keyframes fadeOut
+  0%
+    opacity 1
+  100%
+    opacity 0
+@keyframes fadeOut
+  0%
+    opacity 1
+  100%
+    opacity 0
+
+@-webkit-keyframes btan
+  0%
+    -webkit-transform translateY(100%)
+    opacity 0
+  100%
+    -webkit-transform translateY(0)
+    opacity 1
+@keyframes btan
+  0%
+    transform translateY(100%)
+    opacity 0
+  100%
+    transform translateY(0)
+    opacity 1
+
+@-webkit-keyframes misbtan
+  0%
+    -webkit-transform translateY(30%)
+    opacity 1
+  100%
+    -webkit-transform translateY(0)
+    opacity 0
+
+@keyframes misbtan
+  0%
+    transform translateY(30%)
+    opacity 1
+  100%
+    transform translateY(0)
+    opacity 0
+
+@-webkit-keyframes misbtanP
+  0%
+    -webkit-transform translateY(30%)
+  100%
+    -webkit-transform translateY(-10%)
+@keyframes misbtanP
+  0%
+    transform translateY(30%)
+  100%
+    transform translateY(-10%)
+
+@-webkit-keyframes leftan
+  0%
+    transform translateX(-100%)
+    opacity 0
+  100%
+    transform translateX(0)
+    opacity 1
+@keyframes leftan
+  0%
+    transform translateX(-100%)
+    opacity 0
+  100%
+    transform translateX(0)
+    opacity 1
+
+@-webkit-keyframes rightan
+  0%
+    transform translateX(100%)
+    opacity 0
+  100%
+    transform translateX(0)
+    opacity 1
+@keyframes rightan
+  0%
+    transform translateX(100%)
+    opacity 0
+  100%
+    transform translateX(0)
+    opacity 1
+
+/* 首页banner图路径动画 */
+@keyframes redball
+  from
+    offset-distance 0%
+  to
+    offset-distance 100%
+@-webkit-keyframes redball
+  from
+    offset-distance 0%
+  to
+    offset-distance 100%
+
+@keyframes move1
+  0%
+    stroke-dasharray 0 500px
+  100%
+    stroke-dasharray 500px 500px
+@-webkit-keyframes move1
+  0%
+    stroke-dasharray 0 500px
+  100%
+    stroke-dasharray 500px 500px
+
+@keyframes move2
+  0%
+    stroke-dasharray 0 760px
+  100%
+    stroke-dasharray 760px 760px
+@-webkit-keyframes move2
+  0%
+    stroke-dasharray 0 760px
+  100%
+    stroke-dasharray 760px 760px
+
+@keyframes move3
+  0%
+    stroke-dasharray 0 480px
+  100%
+    stroke-dasharray 480px 480px
+@-webkit-keyframes move3
+  0%
+    stroke-dasharray 0 480px
+  100%
+    stroke-dasharray 480px 480px
+
+@keyframes move4
+  0%
+    stroke-dasharray 0 1500px
+  100%
+    stroke-dasharray 1500px 1500px
+@-webkit-keyframes move4
+  0%
+    stroke-dasharray 0 1500px
+  100%
+    stroke-dasharray 1500px 1500px
+
+@keyframes move5
+  0%
+    stroke-dasharray 0 1650px
+  100%
+    stroke-dasharray 1650px 1650px
+@-webkit-keyframes move4
+  0%
+    stroke-dasharray 0 1500px
+  100%
+    stroke-dasharray 1500px 1500px
+
+.font-10
+  font-size 10px
+.font-12
+  font-size 12px
+.font-14
+  font-size 14px
+.font-16
+  font-size 16px
+.font-18
+  font-size 18px
+
+.text-gray
+  color: #8a8a8a !important
+.text-red
+  color: #e50114 !important
+.text-black
+  color: #212121 !important
+
+.icon-red
+  color: #E63E3E !important
+.icon-yellow
+  color: #FDB52B !important
+.icon-green
+  color: #94D873 !important
+.icon-blank
+  color: #ffffff !important
+
+.text-right
+  text-align right
+.text-center
+  text-align center
+
+.float-left
+  float left
+.float-right
+  float right
+
+.clearfix
+  overflow auto
+  zoom 1
+
+// text ellipsis
+.signle-line
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+mutiple-line(n)
+  display: -webkit-box
+  -webkit-box-orient: vertical
+  -webkit-line-clamp: n
+  overflow: hidden
+.two-line
+  mutiple-line(2)
+.three-line
+  mutiple-line(3)
+
+// init btn
+.btn
+  border none
+  outline none
+  margin 0
+  padding 0
+  background none
