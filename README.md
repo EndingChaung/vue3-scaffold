@@ -1,4 +1,4 @@
-# fbpt
+# vue-cli3 + vue-router + axios + vuex构建功能完善的前端项目脚手架（支持stylus、pug）
 
 ## Project setup
 ```
