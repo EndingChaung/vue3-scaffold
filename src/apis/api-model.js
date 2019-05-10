@@ -5,4 +5,7 @@ export default {
   GetRecentStatisticalData() {
     return engine.get('/api/InfoCenter/RecentStatisticalData');
   },
+  getApi() {
+    return engine.get('/api/json');
+  },
 };

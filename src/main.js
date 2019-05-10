@@ -6,6 +6,7 @@ import router from '@/router';
 import store from '@/store';
 import apis from '@/apis';
 import utils from '@/plugins/utils';
+import './components/index';
 
 Vue.use(Antd);
 

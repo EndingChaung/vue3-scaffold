@@ -1,4 +1,5 @@
 /dist/
+/scripts/*.js
 /*.js
 
 src/plugins/*.js
